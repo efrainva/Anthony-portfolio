@@ -1,4 +1,4 @@
-import react from 'React';
+import React from 'react';
 
 import {Drawing} from '../Anthonydrawing.png'
 
@@ -21,3 +21,4 @@ const Body = () => {
     </section>
   </>)
 }
+export default Body;

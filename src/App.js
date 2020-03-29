@@ -2,7 +2,7 @@ import React from 'react';
 
 import Nav from './Nav';
 import Footer from './Footer';
-import Body from './body/';
+import Body from './body/Body';
 
 import './App.css';
 
