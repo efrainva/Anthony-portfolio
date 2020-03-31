@@ -4,6 +4,8 @@ import Drawing from '../Anthonydrawing.png'
 import iphone from '../Iphone.png'
 
 import './body.css'
+import Second from './Second';
+
 const Body = () => {
   return(<div className='landing-page'>
   
@@ -24,7 +26,7 @@ const Body = () => {
         <h1 className='projects'>Projects</h1>
         <img  className='tony-iphone' src={iphone} alt='iphone-pic'/>
       </div>
-      
+
       <div className='anywhere-fit'>
         <h2>Anywhere Fitness</h2>
         <p className='anywhere-p'> 
@@ -34,6 +36,8 @@ const Body = () => {
         <h3>View Case Studies</h3>
       </div>
     </section>
+
+    <Second />
 
   </div>)
 }

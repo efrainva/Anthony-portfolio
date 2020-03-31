@@ -1,10 +1,13 @@
 import React from 'react';
 
+import tonypic from '../Ellipse1.png'
 const Second = ()=> {
 
   return(<>
-    <h2>I'm Anthony Holder</h2>
-    <p>I grew up with a passion for art, comic books, and technology. 
+    <img src={tonypic}/>
+    <section className='second-p'>
+      <h2>I'm Anthony Holder</h2>
+      <p>I grew up with a passion for art, comic books, and technology. 
       In 2019 I joined the Lambda UX Design program to gain more knowledge and experience.
       <br/>
       My transition from artist to UX designer has been a fun and challenging one. 
@@ -12,7 +15,9 @@ const Second = ()=> {
 
       <br/> In my free time, I enjoy drawing, 
       listen to music, play video games, 
-      and watch football (soccer).</p>
+      and watch football (soccer).
+      </p>
+    </section>
   </>)
 }
 
