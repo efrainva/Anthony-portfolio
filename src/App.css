@@ -41,6 +41,7 @@ a { text-decoration: none;}
 a:visited { color: black;}
 p{
   font-size: 30px;
+  text-align: left;
 }
 h2{
   font-size: 46px;

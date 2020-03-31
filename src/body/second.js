@@ -3,6 +3,7 @@ import React from 'react';
 const Second = ()=> {
 
   return(<>
+    <h2>I'm Anthony Holder</h2>
     <p>I grew up with a passion for art, comic books, and technology. 
       In 2019 I joined the Lambda UX Design program to gain more knowledge and experience.
       <br/>
