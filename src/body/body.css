@@ -5,10 +5,13 @@ margin: 0 auto;
 .top-landing-sec{
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   padding: 0 5%;
 }
 .bottom-landing-sec{
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
   padding: 0 5%;
 }
 .name{
@@ -17,7 +20,6 @@ margin: 0 auto;
   padding-bottom: 20px;
   border-bottom: 2px solid #D0241D;;
 }
-
 
 .name-container{
   width: 492px;
@@ -31,12 +33,16 @@ margin: 0 auto;
 .projects{
   font-size: 54px;
 }
+.tonys-drawing{
+  width: 650px;
+  height: auto;
+}
 .tony-iphone{
-  height: 500px;
-  width: auto;
+  height: auto;
+  width: 500px;
 }
 .anywhere-fit{
-  margin: 10% auto;
+  margin: 0 auto;
   width: 580px;
   text-align: left;
 }
