@@ -9,10 +9,10 @@ margin: 0 auto;
   padding: 0 5%;
 }
 .bottom-landing-sec{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
-  padding: 0 5%;
+  /* padding: 0 5%; */
 }
 .name{
   width: 400px;
@@ -41,8 +41,13 @@ margin: 0 auto;
   height: auto;
   width: 500px;
 }
+.left-contain-phone{
+  padding-right: 50px;
+}
 .anywhere-fit{
-  margin: 0 auto;
+
+  margin: auto 0;
   width: 580px;
   text-align: left;
+  padding-left: 20px;
 }
