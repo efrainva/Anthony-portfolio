@@ -4,7 +4,7 @@ import tonypic from '../Ellipse1.png'
 const Second = ()=> {
 
   return(<>
-    <img src={tonypic}/>
+    <img src={tonypic} alt='selfie'/>
     <section className='second-p'>
       <h2>I'm Anthony Holder</h2>
       <p>I grew up with a passion for art, comic books, and technology. 
