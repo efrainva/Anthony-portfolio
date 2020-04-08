@@ -1,0 +1,82 @@
+.most-p{
+  width: 450px;
+  font-size: 18px;
+  line-height: 147.4%;
+}
+
+/* ------most paragraphs */
+.sc{
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.right-p{
+  flex-direction: row;
+  justify-content: end;
+}
+.colum{
+  display: flex;
+  flex-direction: column;
+}
+.colum-w{
+  width: 450px;
+}
+/* .left-p{
+  flex-direction: row-reverse;
+} */
+/* section controll */
+.topbanner{
+  width: auto;
+}
+.rest-third{
+  width:1440px;
+  margin: 0 auto;
+}
+
+.roles{
+  /* margin: 0 auto; */
+  display: flex;
+  /* width: 90px; */
+}
+.role-width{
+  text-align: left;
+  width: 100px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.253596px;
+}
+.block{
+  width: 1200px;
+  margin: 0 auto;
+}
+.firstp{
+  width: 600px;
+  height: auto;
+}
+/* pictues */
+.anywhere-3{ display: flex;
+  justify-content: space-evenly;
+}
+.phones-3{
+  width: 240px;
+}
+.ben{
+  width: 566px;
+  padding-right: 30px;
+}
+/*  */
+/* .left-center{
+  display: ;
+} */
+.horizontal{
+  padding-top: 30px;
+  display: flex;
+  width: 1300px;
+}
+.space{
+  display: flex;
+  justify-content: space-evenly;
+}

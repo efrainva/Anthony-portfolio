@@ -39,7 +39,7 @@ const Body = () => {
       </div>
 
       <div className='anywhere-fit'>
-        <h2>Anywhere Fitness</h2>
+        <h2 className='any-h2'>Anywhere Fitness</h2>
         <p className='anywhere-p' ref={theref}> 
           An app to help users 
           find fitness classes hosted by local instructors.

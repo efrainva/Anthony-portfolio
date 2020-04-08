@@ -54,23 +54,11 @@ margin: 0 auto;
   text-align: left;
   padding-left: 20px;
 }
-.arrow-pic{
-  animation: blinking 4s infinite;
+.any-h2{
+  width: 400px;
 }
-@keyframes blinking{
-  0%{
-    transform: scaleX(1);
-    transform: scaleY(1);
-  }
-  50%{
-
-    transform: scaleX(2);
-    transform: scaleY(2);
-  }
-  100%{
-    transform: scaleX(1);
-    transform: scaleY(1);
-  }
+.arrow-pic{
+  /* animation: blinking 4s infinite; */
 }
 
 
