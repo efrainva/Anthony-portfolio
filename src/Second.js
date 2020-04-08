@@ -2,7 +2,7 @@ import React from 'react';
 
 import tonypic from './Ellipse1.png'
 // this component uses the body css style sheet
-import './body.css'
+import './body/body.css'
 const Second = ()=> {
 
   return(<div className='second'>
