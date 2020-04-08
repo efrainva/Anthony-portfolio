@@ -54,7 +54,7 @@ const Third =()=>{
     </section>
 
     {/* ------------------------------------------ */}
-    <section className='right-p sc' >
+    <section className='right-p sc sep' >
    <section className='sc colum' >
       <h3>How to help users?</h3>
       <p className='most-p'>
@@ -88,7 +88,7 @@ const Third =()=>{
       </section>
     </section>
     {/* ------------------------------------------ */}
-    <section className='right-p sc colum'>
+    <section className='right-p sc colum sep'>
       <div className='colum colum-w'>
         <h3>
           What Problems to solve?
@@ -130,7 +130,7 @@ const Third =()=>{
       </div>
     </section>
     {/* ------------------------------------------ */}
-    <section className='right-p sc'>
+    <section className='right-p sc sep'>
       <div>
 
       <h3>
@@ -141,59 +141,63 @@ const Third =()=>{
       </p>
       </div>
       <div className='horizontal'>
-        <p className='most-p'>One of the struggles I had was making sure each feature worked as anticipated by the users. I asked several participants to do a card test, and this helped me understand what users expect from each element. With the feedback received, I did a site map exercise. This helped me visualize the way the users think and gave me an excellent foundation to start creating the features. </p>
+        <p className='most-p ' >One of the struggles I had was making sure each feature worked as anticipated by the users. I asked several participants to do a card test, and this helped me understand what users expect from each element. With the feedback received, I did a site map exercise. This helped me visualize the way the users think and gave me an excellent foundation to start creating the features. </p>
         <div>
           <img src={chart}/>
           <h4>Site map example</h4>
         </div>
       </div>
       <div>
-      <div>
-        <img src={sketch}/>
-        <h4>Invite a friend feature sketches</h4>
+        <div>
+          <img src={sketch}/>
+          <h4>Invite a friend feature sketches</h4>
+        </div>
+        <p className='most-p '>The hardest part of the process was coming up with a design flow that met the goal of creating something fast and easy to use.  I started the process by doing several sketches to give me a starting point of where I want to start my design.</p>
       </div>
-      <p className='most-p'>The hardest part of the process was coming up with a design flow that met the goal of creating something fast and easy to use.  I started the process by doing several sketches to give me a starting point of where I want to start my design.</p>
-      </div>
-      
-    <p className='most-p'>
-    Based on my original sketches, I created low fidelity designs that helped me think of basic hierarchy and functionality. I created prototypes and usability tests and asked participants to take each test and offer feedback. The main goal is to solve a problem, and with the input received from the users, I had all the information needed to help me improve on my first design ideas.
-    </p>
+    <p className='most-p p-left-m'>Based on my original sketches, I created low fidelity designs that helped me think of basic hierarchy and functionality. I created prototypes and usability tests and asked participants to take each test and offer feedback. The main goal is to solve a problem, and with the input received from the users, I had all the information needed to help me improve on my first design ideas.</p>
       <div>
       <img src={long}/>
       <h4>Low fidelity wireframes</h4>
       </div>
     </section>
     {/* ------------------------------------------ */}
-    <section className='right-p sc'>
+    <section className='right-p sc sep'>
       <div className='colum '>
         <h3>How is the app going to look?</h3>
         <p className='most-p'>When working on the high fidelity design, I thought of elements that showed the main ideas behind the app. A product that is fast and easy to use while having a strong and minimal visual to represent something modern and athletic.</p>
       </div>
       <div className='horizontal'>
-          <p className='most-p'> I created a style guide for the brand using the shades of Black, White, and red. I decided to go with those colors as they represent strength and athletism. limiting the color styles to just three colors helped with giving the app a simple and minimal look</p>
+          <p className='most-p p-right-m'> I created a style guide for the brand using the shades of Black, White, and red. I decided to go with those colors as they represent strength and athletism. limiting the color styles to just three colors helped with giving the app a simple and minimal look</p>
           <div>
             <img className='colors' src={colors} alt='color style'/>
             <h4>Color style guide</h4>
           </div>
       </div>
       <div className='horizontal'>
+        <div>
         <img className='font-style'src={textfont} alt='font-style'/>
-        <p className='most-p'>
+            <h4>Text style guide</h4>
+
+        </div>
+        <p className='most-p p-left-m'>
         For the text style guide, I decided to go with Ubuntu and Poppins as they have several weights available, which made each font more dynamic. 
         <br/>
         I used Ubuntu for the logo text and Poppins for the body text. To keep the minimal style of the app, I limited the fonts to regular and bold weights and chose four font sizes, one for each text style.
         </p>
       </div>
       <div className='horizontal'>
-          <p className='most-p'>
+          <p className='most-p p-right-m'>
             When choosing the icons, I looked for symbols that were easy to recognize and had a modern style. Selecting the right icons helped with the overall flow of the app as it limited the use of text and helped with spacing.
           </p>
-          <img src={icons} />
+          <div>
+            <img src={icons} />
+            <h4>Icons style guide</h4>
+          </div>
       </div>
       
     </section>
     {/* ------------------------------------------ */}
-    <section className='colum sc'>
+    <section className='colum sc sep'>
       {/* <div className='colum'> */}
 
         <h3>

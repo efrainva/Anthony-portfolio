@@ -1,4 +1,4 @@
-import React,{useRef, useEffect} from 'react';
+import React,{ useEffect} from 'react';
 
 import Drawing from '../Anthonydrawing.png'
 import iphone from '../Iphone.png'
@@ -7,13 +7,16 @@ import arrow from '../Vector.png'
 import './body.css'
 
 
+// const scrollToRef = (ref) => window.scrollTo(2000, ref.current)   
+const theref = React.createRef()
 const scrollToRef=(el)=>{
   window.scrollTo(0,el.current.offsetTop)  
 }
-// const scrollToRef = (ref) => window.scrollTo(2000, ref.current)   
 const Body = () => {
-  const theref = React.createRef()
-  useEffect(()=>{scrollToRef(theref)},[])
+  useEffect(()=>{
+    
+    scrollToRef(theref)
+  },[])
 
   return(<div className='landing-page'>
   

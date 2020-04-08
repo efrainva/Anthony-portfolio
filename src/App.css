@@ -47,6 +47,7 @@ h2{
   margin: auto auto auto 0px;
   font-size: 46px;
   text-align: left;
+  padding-bottom: 10px;
   border-bottom: 2px solid red;
 }
 h3{

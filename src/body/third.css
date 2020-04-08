@@ -80,3 +80,12 @@
   display: flex;
   justify-content: space-evenly;
 }
+.sep{
+  margin: 50px auto;
+}
+.p-left-m{
+  padding-left: 20px;
+}
+.p-right-m{
+  padding-right: 20px;
+}
