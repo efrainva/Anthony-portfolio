@@ -2,9 +2,9 @@ import React from 'react';
 
 import Nav from './Nav';
 import Footer from './Footer';
-import Body from './body/Body';
-import about from './body/aboutme'
-import Third from './body/Third'
+import Body from './Body';
+import about from './aboutme'
+import Third from './Third'
 import {Switch,Route} from 'react-router-dom'
 
 import './App.css';

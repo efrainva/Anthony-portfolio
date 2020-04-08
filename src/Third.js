@@ -1,24 +1,24 @@
 import React from 'react';
 
-import cover from '../Cover.png'
+import cover from './Cover.png'
 
-import phone1 from '../HomePage.png'
-import phone2 from '../CategoriespageUnselected.png';
-import phone3 from '../SelectAccountType.png';
+import phone1 from './HomePage.png'
+import phone2 from './CategoriespageUnselected.png';
+import phone3 from './SelectAccountType.png';
 
-import benjones from '../Proto-Persona-Instructor.png'
-import journeyMap from '../Journey Map - Student 1 (1).png'
-import brain from '../Screen Shot 2019-12-18 at 2.21 1.png'
-import chart from '../Anywhere-1.png'
-import long from '../screenshots-1.png'
-import sketch from '../invite a friend 1 (1).png'
+import benjones from './Proto-Persona-Instructor.png'
+import journeyMap from './Journey Map - Student 1 (1).png'
+import brain from './Screen Shot 2019-12-18 at 2.21 1.png'
+import chart from './Anywhere-1.png'
+import long from './screenshots-1.png'
+import sketch from './invite a friend 1 (1).png'
 
-import colors from '../Color Styles 1 (1).png'
-import textfont from '../Text Styles 1 (1).png'
-import icons from '../Icons.png'
-import screen1 from '../Classes Page.png'
-import screen2 from '../SearchPage.png'
-import screen3 from '../FilterPage.png'
+import colors from './Color Styles 1 (1).png'
+import textfont from './Text Styles 1 (1).png'
+import icons from './Icons.png'
+import screen1 from './Classes Page.png'
+import screen2 from './SearchPage.png'
+import screen3 from './FilterPage.png'
 
 
 import './third.css'

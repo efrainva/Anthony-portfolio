@@ -1,8 +1,8 @@
 import React,{ useEffect} from 'react';
 
-import Drawing from '../Anthonydrawing.png'
-import iphone from '../Iphone.png'
-import arrow from '../Vector.png'
+import Drawing from './Anthonydrawing.png'
+import iphone from './Iphone.png'
+import arrow from './Vector.png'
 
 import './body.css'
 
