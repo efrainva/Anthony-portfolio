@@ -8,11 +8,11 @@ import './body.css'
 
 
 // const scrollToRef = (ref) => window.scrollTo(2000, ref.current)   
-const theref = React.createRef()
-const scrollToRef=(el)=>{
-  window.scrollTo(0,el.current.offsetTop)  
-}
 const Body = () => {
+  const theref = React.createRef()
+  const scrollToRef=(el)=>{
+    window.scrollTo(0,el.current.offsetTop)  
+  }
   useEffect(()=>{
     
     scrollToRef(theref)

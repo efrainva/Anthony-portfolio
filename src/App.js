@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import Body from './body/Body';
-import Second from './body/Second'
+import Second from './Second'
 import Third from './body/Third'
 import {Switch,Route} from 'react-router-dom'
 
