@@ -1,6 +1,6 @@
 import React from 'react';
 
-import tonypic from '../Ellipse1.png'
+import tonypic from './Ellipse1.png'
 // this component uses the body css style sheet
 import './body.css'
 const Second = ()=> {
