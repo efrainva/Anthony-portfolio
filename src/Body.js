@@ -1,5 +1,5 @@
 import React,{ useEffect} from 'react';
-
+import {NavLink} from 'react-router-dom'
 import Drawing from './Anthonydrawing.png'
 import iphone from './Iphone.png'
 import arrow from './Vector.png'
@@ -35,7 +35,7 @@ const Body = () => {
       <img className='tonys-drawing' src={Drawing} alt='portrait'/>
     </section>
 
-    <a className='bottom-landing-sec' href='/case1'  >
+    <NavLink className='bottom-landing-sec' href='/case1'  >
       <div className='left-contain-phone'>
         <h1 className='projects'>Projects</h1>
         <img  className='tony-iphone' src={iphone} alt='iphone-pic'/>
@@ -49,7 +49,7 @@ const Body = () => {
         </p>
         <h3>View Case Studies</h3>
       </div>
-    </a>
+    </NavLink>
 
   </div>)
 }

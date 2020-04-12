@@ -1,14 +1,14 @@
 import React from 'react';
 import './nav-footer.css'
 import icon from'./Frame1.png'
-
+import {NavLink} from 'react-router-dom'
 const Nav = () => {
 
   return(<section className='whole'>
     <a href='/'> <img src={icon} alt='icon'/></a>
     <div className='right-nav-panel'>
-      <a className='nav-word' href='/portfolio'> Portfolio</a>
-      <a className='nav-word' href='/'> About Me</a>
+      <NavLink className='nav-word' href='/portfolio'> Portfolio</NavLink>
+      <NavLink className='nav-word' href='/'> About Me</NavLink>
     </div>
   </section>)
 } 
