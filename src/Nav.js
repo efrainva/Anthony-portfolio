@@ -7,8 +7,8 @@ const Nav = () => {
   return(<section className='whole'>
     <a href='/'> <img src={icon} alt='icon'/></a>
     <div className='right-nav-panel'>
-      <NavLink className='nav-word' href='/portfolio'> Portfolio</NavLink>
-      <NavLink className='nav-word' href='/'> About Me</NavLink>
+      <NavLink className='nav-word' to='/portfolio'> Portfolio</NavLink>
+      <NavLink className='nav-word' to='/'> About Me</NavLink>
     </div>
   </section>)
 } 
