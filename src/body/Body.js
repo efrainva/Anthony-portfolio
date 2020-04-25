@@ -1,9 +1,10 @@
 import React,{ useEffect} from 'react';
 import {NavLink} from 'react-router-dom'
-import Drawing from './Anthonydrawing.png'
-import iphone from './Iphone.png'
-import arrow from './Vector.png'
+import Drawing from '../pictures/Anthonydrawing.png'
+import iphone from '../pictures/Iphone.png'
+import arrow from '../pictures/arrow 4.png'
 
+import '../index.css'
 import './body.css'
 
 
@@ -14,12 +15,12 @@ const Body = () => {
     window.scrollTo(0,el.current.offsetTop)  
   }
   useEffect(()=>{
-    
+
     scrollToRef(theref)
   },[])
 
   return(<div className='landing-page'>
-  
+    <link href="//db.onlinewebfonts.com/c/7d349f3b93cd47712cf75443b05965bf?family=NeueHaasUnicaW1G-Medium" rel="stylesheet" type="text/css"/>
     <section className='top-landing-sec' >
       <div className='name-container'>
         <h1 className='name'>Anthony Holder</h1>
@@ -35,7 +36,7 @@ const Body = () => {
       <img className='tonys-drawing' src={Drawing} alt='portrait'/>
     </section>
 
-    <NavLink className='bottom-landing-sec' to='/case1'  >
+    <section className='bottom-landing-sec'   >
       <div className='left-contain-phone'>
         <h1 className='projects'>Projects</h1>
         <img  className='tony-iphone' src={iphone} alt='iphone-pic'/>
@@ -47,9 +48,12 @@ const Body = () => {
           An app to help users 
           find fitness classes hosted by local instructors.
         </p>
-        <h3>View Case Studies</h3>
+        <button className='button'>
+
+        <NavLink  to='/case1'> View Case Studies</NavLink>
+        </button>
       </div>
-    </NavLink>
+    </section>
 
   </div>)
 }

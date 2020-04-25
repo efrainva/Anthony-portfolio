@@ -1,24 +1,24 @@
 import React from 'react';
 
-import cover from './Cover.png'
+import cover from '../pictures/Cover.png'
 
-import phone1 from './HomePage.png'
-import phone2 from './CategoriespageUnselected.png';
-import phone3 from './SelectAccountType.png';
+import phone1 from '../pictures/HomePage.png'
+import phone2 from '../pictures/CategoriespageUnselected.png';
+import phone3 from '../pictures/SelectAccountType.png';
 
-import benjones from './Proto-Persona-Instructor.png'
-import journeyMap from './Journey Map - Student 1 (1).png'
-import brain from './Screen Shot 2019-12-18 at 2.21 1.png'
-import chart from './Anywhere-1.png'
-import long from './screenshots-1.png'
-import sketch from './invite a friend 1 (1).png'
+import benjones from '../pictures/Proto-Persona-Instructor.png'
+import journeyMap from '../pictures/Journey Map - Student 1 (1).png'
+import brain from '../pictures/Screen Shot 2019-12-18 at 2.21 1.png'
+import chart from '../pictures/Anywhere-1.png'
+import long from '../pictures/screenshots-1.png'
+import sketch from '../pictures/invite a friend 1 (1).png'
 
-import colors from './Color Styles 1 (1).png'
-import textfont from './Text Styles 1 (1).png'
-import icons from './Icons.png'
-import screen1 from './Classes Page.png'
-import screen2 from './SearchPage.png'
-import screen3 from './FilterPage.png'
+import colors from '../pictures/Color Styles 1 (1).png'
+import textfont from '../pictures/Text Styles 1 (1).png'
+import icons from '../pictures/Icons.png'
+import screen1 from '../pictures/Classes Page.png'
+import screen2 from '../pictures/SearchPage.png'
+import screen3 from '../pictures/FilterPage.png'
 
 
 import './third.css'
@@ -64,7 +64,7 @@ const Third =()=>{
     </section>
       <div>
 
-        <img className='ben' src={benjones} alt='picture of ben jones'/>
+        <img className='ben' src={benjones} alt='ben jones'/>
         <h4>Instructor proto - persona</h4>
       </div>
       <p className='most-p'>
@@ -124,7 +124,7 @@ const Third =()=>{
         </ol>
         </div>
         <div>
-          <img src={brain} />
+          <img src={brain} alt='mind map'/>
           <h4>Mind map example</h4>
         </div>
       </div>
@@ -143,20 +143,20 @@ const Third =()=>{
       <div className='horizontal'>
         <p className='most-p ' >One of the struggles I had was making sure each feature worked as anticipated by the users. I asked several participants to do a card test, and this helped me understand what users expect from each element. With the feedback received, I did a site map exercise. This helped me visualize the way the users think and gave me an excellent foundation to start creating the features. </p>
         <div>
-          <img src={chart}/>
+          <img src={chart} alt='chart'/>
           <h4>Site map example</h4>
         </div>
       </div>
       <div>
         <div>
-          <img src={sketch}/>
+          <img src={sketch} alt='sketch'/>
           <h4>Invite a friend feature sketches</h4>
         </div>
         <p className='most-p '>The hardest part of the process was coming up with a design flow that met the goal of creating something fast and easy to use.  I started the process by doing several sketches to give me a starting point of where I want to start my design.</p>
       </div>
     <p className='most-p p-left-m'>Based on my original sketches, I created low fidelity designs that helped me think of basic hierarchy and functionality. I created prototypes and usability tests and asked participants to take each test and offer feedback. The main goal is to solve a problem, and with the input received from the users, I had all the information needed to help me improve on my first design ideas.</p>
       <div>
-      <img src={long}/>
+      <img src={long} alt='multiple sketches'/>
       <h4>Low fidelity wireframes</h4>
       </div>
     </section>
@@ -190,7 +190,7 @@ const Third =()=>{
             When choosing the icons, I looked for symbols that were easy to recognize and had a modern style. Selecting the right icons helped with the overall flow of the app as it limited the use of text and helped with spacing.
           </p>
           <div>
-            <img src={icons} />
+            <img src={icons} alt='icons' />
             <h4>Icons style guide</h4>
           </div>
       </div>

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Nav from './Nav';
-import Footer from './Footer';
-import Body from './Body';
-import about from './aboutme'
-import Third from './Third'
+import Nav from './body/Nav';
+import Footer from './body/Footer';
+import Body from './body/Body';
+import about from './body/aboutme'
+import Third from './body/Third'
 import {Switch,Route} from 'react-router-dom'
 
 import './App.css';
@@ -13,10 +13,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Nav/>
+        <Nav/>
       <Switch>
-        <Route exact path='/' component={Body} />
-        <Route path='/portfolio' component={about}/>
+        <Route exact path='/portfolio' component={Body} />
+        <Route path='/about' component={about}/>
         <Route path='/case1' component={Third} />
       </Switch>
       <Footer/>

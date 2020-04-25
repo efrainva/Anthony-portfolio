@@ -302,8 +302,16 @@ textarea {
 a { text-decoration: none;}
 a:visited { color: black;}
 p{
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-align: left;
+}
+h1{
+  margin: auto auto auto 0px;
+  font: bold;
+  /* text-align: left; */
+  font-size: 54px;
+  /* border-bottom: 4px solid red; */
 }
 h2{
   margin: auto auto auto 0px;
@@ -314,6 +322,7 @@ h2{
 }
 h3{
   margin: auto auto auto 0px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-size: 34px;
   border-bottom: 2px solid red;

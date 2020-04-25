@@ -1,3 +1,5 @@
+
+
 .landing-page{
 margin: 0 auto;
 }
@@ -17,10 +19,13 @@ margin: 0 auto;
   padding: 0 5%;
 }
 .name{
-  width: 400px;
+  font-family: 'Roboto', sans-serif;
+  width: 380px;
   font-size: 54px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #D0241D;;
+  text-align: left;
+
+  border-bottom: 4px solid red;
 }
 
 .name-container{
@@ -29,6 +34,7 @@ margin: 0 auto;
   line-height: 137.35%;
 }
 .tony-text-one{
+  padding-top: 25px;
   text-align: left;
 }
 
@@ -54,8 +60,11 @@ margin: 0 auto;
   text-align: left;
   padding-left: 20px;
 }
+.anywhere-p{
+  padding: 20px 0px;
+}
 .any-h2{
-  width: 400px;
+  width: 335px;
 }
 /* .arrow-pic{
    animation: blinking 4s infinite; 
@@ -77,4 +86,34 @@ margin: 0 auto;
   width: 400px;
   padding-right: 100px;
 }
+
+.contact{
+  width: 90px;
+  margin: 10px auto  ;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #2251D1;
+  border-radius: 5px;
+  padding: 10px;
+}
 /* second component ends here ----------------*/
+
+.button{
+  margin: 10px auto  ;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #2251D1;
+  border-radius: 5px;
+  padding: 10px;
+}
+.intro{
+  width: 350px;
+}
+.Im{
+  width: 375px;
+  margin-bottom: 40px;
+}
+.contact{
+  width: 120px;
+}

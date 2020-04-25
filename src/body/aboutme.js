@@ -1,14 +1,14 @@
-import React from 'react';
-
-import tonypic from './Ellipse1.png'
+import React from 'react'
+import tonypic from '../pictures/Group 2.png'
 // this component uses the body css style sheet
-import './body/body.css'
-const Second = ()=> {
+import './body.css'
 
+
+const aboutme =()=>{
   return(<div className='second'>
     <img  className='tony-profile' src={tonypic} alt='selfie'/>
     <section className='second-p'>
-      <h2>I'm Anthony Holder</h2>
+      <h2 className='Im'>I'm Anthony Holder</h2>
       <p>I grew up with a passion for art, comic books, and technology. 
       In 2019 I joined the Lambda UX Design program to gain more knowledge and experience.
       <br/>
@@ -20,10 +20,10 @@ const Second = ()=> {
       listen to music, play video games, 
       and watch football (soccer).
       </p>
-      <h3>Contact</h3>
-      <h3>View Work</h3>
+      <h3 className='contact'>Contact</h3>
+
     </section>
   </div>)
 }
 
-export default Second;
+export default aboutme;

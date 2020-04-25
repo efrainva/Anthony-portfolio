@@ -29,6 +29,7 @@
 /* section controll */
 .topbanner{
   width: auto;
+  margin-bottom: 40px;
 }
 .rest-third{
   width:1440px;

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return(<div className='footer'>
-  <section className='bottom-conatain'>
-    <h3>Contact</h3>
+  {/* <section className='bottom-conatain'> */}
+    {/* <h3>Contact</h3> */}
 
-  </section>
+  {/* </section>  */}
   <section className='bottom-contain'>
     <h3>Social</h3>
     
