@@ -46,17 +46,18 @@ const Third =()=>{
       </p>
       </div>
     </section>
-
     <section className=' sc anywhere-3'>
       <img className='phones-3' src={phone1} alt='phone-display1'/>
       <img className='phones-3' src={phone2} alt='phone-display2'/>
       <img className='phones-3' src={phone3} alt='phone-display3'/>
     </section>
-
     {/* ------------------------------------------ */}
-    <section className='right-p sc sep' >
+    <div className='leftmar'>
+
+    <section className='right-p sc sep ' >
+
    <section className='sc colum' >
-      <h3>How to help users?</h3>
+      <h3 className='pb'>How to help users?</h3>
       <p className='most-p'>
         To get a better insight from the users, I ran several interviews with participants that have attended or currently attend a fitness class and participants that teach fitness classes.
         This process helped find key pain points.
@@ -82,15 +83,18 @@ const Third =()=>{
         </p>
         <div>
 
-        <img src={journeyMap} alt='journey map'/>
+        <img className='p-left-m' src={journeyMap} alt='journey map'/>
         <h4>Client Journey map</h4>
         </div>
       </section>
     </section>
+
+    </div>
     {/* ------------------------------------------ */}
-    <section className='right-p sc colum sep'>
+    <div className='leftmar'>
+    <section className='right-p sc colum sep '>
       <div className='colum colum-w'>
-        <h3>
+        <h3 className='pb'>
           What Problems to solve?
         </h3>
         <p className='most-p'>Using the information gathered from the research, I ran a brainstorming exercise to write down all the issues our users could experience. This exercise helped me prioritize the problems that are affecting our users the most.</p>
@@ -129,11 +133,13 @@ const Third =()=>{
         </div>
       </div>
     </section>
+    </div>
     {/* ------------------------------------------ */}
-    <section className='right-p sc sep'>
+    <div className='leftmar'>
+    <section className='right-p sc sep '>
       <div>
 
-      <h3>
+      <h3 className='pb'>
         How are the solutions going to work?
       </h3>
       <p className='most-p'>
@@ -142,40 +148,42 @@ const Third =()=>{
       </div>
       <div className='horizontal'>
         <p className='most-p ' >One of the struggles I had was making sure each feature worked as anticipated by the users. I asked several participants to do a card test, and this helped me understand what users expect from each element. With the feedback received, I did a site map exercise. This helped me visualize the way the users think and gave me an excellent foundation to start creating the features. </p>
-        <div>
+        <div className='pb map'>
           <img src={chart} alt='chart'/>
           <h4>Site map example</h4>
         </div>
       </div>
       <div>
-        <div>
+        <div className='map' >
           <img src={sketch} alt='sketch'/>
           <h4>Invite a friend feature sketches</h4>
         </div>
         <p className='most-p '>The hardest part of the process was coming up with a design flow that met the goal of creating something fast and easy to use.  I started the process by doing several sketches to give me a starting point of where I want to start my design.</p>
       </div>
     <p className='most-p p-left-m'>Based on my original sketches, I created low fidelity designs that helped me think of basic hierarchy and functionality. I created prototypes and usability tests and asked participants to take each test and offer feedback. The main goal is to solve a problem, and with the input received from the users, I had all the information needed to help me improve on my first design ideas.</p>
-      <div>
-      <img src={long} alt='multiple sketches'/>
+      <div className='map' >
+      <img className='map'  src={long} alt='multiple sketches'/>
       <h4>Low fidelity wireframes</h4>
       </div>
     </section>
+    </div>
     {/* ------------------------------------------ */}
-    <section className='right-p sc sep'>
+    <div className='leftmar'>
+    <section className='right-p sc sep '>
       <div className='colum '>
-        <h3>How is the app going to look?</h3>
+        <h3 className='pb'>How is the app going to look?</h3>
         <p className='most-p'>When working on the high fidelity design, I thought of elements that showed the main ideas behind the app. A product that is fast and easy to use while having a strong and minimal visual to represent something modern and athletic.</p>
       </div>
       <div className='horizontal'>
           <p className='most-p p-right-m'> I created a style guide for the brand using the shades of Black, White, and red. I decided to go with those colors as they represent strength and athletism. limiting the color styles to just three colors helped with giving the app a simple and minimal look</p>
           <div>
-            <img className='colors' src={colors} alt='color style'/>
+            <img className='colors map' src={colors} alt='color style'/>
             <h4>Color style guide</h4>
           </div>
       </div>
       <div className='horizontal'>
         <div>
-        <img className='font-style'src={textfont} alt='font-style'/>
+        <img className='font-style map'src={textfont} alt='font-style'/>
             <h4>Text style guide</h4>
 
         </div>
@@ -190,29 +198,32 @@ const Third =()=>{
             When choosing the icons, I looked for symbols that were easy to recognize and had a modern style. Selecting the right icons helped with the overall flow of the app as it limited the use of text and helped with spacing.
           </p>
           <div>
-            <img src={icons} alt='icons' />
+            <img className='map'  src={icons} alt='icons' />
             <h4>Icons style guide</h4>
           </div>
       </div>
       
     </section>
+    </div>
     {/* ------------------------------------------ */}
-    <section className='colum sc sep'>
-      {/* <div className='colum'> */}
 
-        <h3>
+    <section className='colum sc sep'>
+
+
+        <h3 className='pb fin'>
         Final Thoughts
         </h3>
         <p className='most-p'>
           Working on Anywhere Fitness showed me the importance of research and ideation in the design process. The goal of this project is to fix problems that our users were having while creating a design the was simple, efficient, modern, and functional. That goal was achieved, and I look forward to continuing iterating and creating a better experience for the users.
         </p>
-      {/* </div> */}
+
       <div className='space'>
         <img src={screen1} alt='iphone-screen'/>
         <img src={screen2} alt='iphone-screen'/>
         <img src={screen3} alt='iphone-screen'/>
       </div>
     </section>
+
 
   </div>)
 }

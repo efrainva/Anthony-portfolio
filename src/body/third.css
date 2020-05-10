@@ -6,7 +6,7 @@
 
 /* ------most paragraphs */
 .sc{
-  margin: 0 auto;
+  margin: 20px auto;
   width: 1300px;
   display: flex;
   flex-wrap: wrap;
@@ -17,11 +17,15 @@
   justify-content: end;
 }
 .colum{
+
   display: flex;
   flex-direction: column;
 }
 .colum-w{
   width: 450px;
+}
+.leftmar{
+  margin: 0 15% ;
 }
 /* .left-p{
   flex-direction: row-reverse;
@@ -82,11 +86,22 @@
   justify-content: space-evenly;
 }
 .sep{
+  padding-bottom: 10px;
   margin: 50px auto;
+}
+.pb{
+  padding-bottom: 10px;
 }
 .p-left-m{
   padding-left: 20px;
 }
 .p-right-m{
   padding-right: 20px;
+}
+.fin{
+  width:230px;
+}
+.map{
+
+  margin-bottom: 20px;
 }
