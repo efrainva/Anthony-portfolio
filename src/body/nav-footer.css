@@ -21,11 +21,12 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  flex-wrap: wrap;
   margin: 0 auto;
 }
 
 .bottom-contain{
   width: 100px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
