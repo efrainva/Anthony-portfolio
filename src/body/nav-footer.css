@@ -13,7 +13,11 @@
 .nav-word{
   font-size: 20px;
   padding: 0px 10px;
-
+}
+.nav-word:active {
+  font-size: 20px;
+  padding: 0px 10px;
+  color: #2251D1;
 }
 
 .footer{

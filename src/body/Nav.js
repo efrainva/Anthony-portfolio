@@ -4,6 +4,8 @@ import icon from'../pictures/Frame1.png'
 import {NavLink} from 'react-router-dom'
 const Nav = () => {
 
+
+
   return(<section className='whole'>
     <a href='/'> <img src={icon} alt='icon'/></a>
     <div className='right-nav-panel'>
